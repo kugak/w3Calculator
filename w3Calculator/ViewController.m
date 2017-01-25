@@ -27,10 +27,14 @@
     [self setAnswer:0.0];
     [self setOperand:PLUS];
     [self setTheNumber:@"0"];
+    [self printNumber];
+    
+}
+
+-(void)printNumber
+{
     [lblText setText:self.theNumber];
-    
-    
-    
+
 }
 
 
