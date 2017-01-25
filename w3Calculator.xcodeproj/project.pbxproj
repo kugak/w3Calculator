@@ -58,13 +58,11 @@
 		309B4D501E38F0CE00B6A388 /* w3Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				309B4D541E38F0CE00B6A388 /* AppDelegate.h */,
-				309B4D551E38F0CE00B6A388 /* AppDelegate.m */,
-				309B4D571E38F0CE00B6A388 /* ViewController.h */,
-				309B4D581E38F0CE00B6A388 /* ViewController.m */,
-				309B4D5A1E38F0CE00B6A388 /* Main.storyboard */,
-				309B4D5D1E38F0CE00B6A388 /* Assets.xcassets */,
-				309B4D5F1E38F0CE00B6A388 /* LaunchScreen.storyboard */,
+				309B4D6C1E38F11F00B6A388 /* Sounds */,
+				309B4D6B1E38F11900B6A388 /* Images */,
+				309B4D6A1E38F10B00B6A388 /* Special Classes */,
+				309B4D691E38F10300B6A388 /* Story Board */,
+				309B4D681E38F0F400B6A388 /* VIew Controller */,
 				309B4D621E38F0CE00B6A388 /* Info.plist */,
 				309B4D511E38F0CE00B6A388 /* Supporting Files */,
 			);
@@ -77,6 +75,48 @@
 				309B4D521E38F0CE00B6A388 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		309B4D681E38F0F400B6A388 /* VIew Controller */ = {
+			isa = PBXGroup;
+			children = (
+				309B4D571E38F0CE00B6A388 /* ViewController.h */,
+				309B4D581E38F0CE00B6A388 /* ViewController.m */,
+			);
+			name = "VIew Controller";
+			sourceTree = "<group>";
+		};
+		309B4D691E38F10300B6A388 /* Story Board */ = {
+			isa = PBXGroup;
+			children = (
+				309B4D5A1E38F0CE00B6A388 /* Main.storyboard */,
+				309B4D5F1E38F0CE00B6A388 /* LaunchScreen.storyboard */,
+			);
+			name = "Story Board";
+			sourceTree = "<group>";
+		};
+		309B4D6A1E38F10B00B6A388 /* Special Classes */ = {
+			isa = PBXGroup;
+			children = (
+				309B4D541E38F0CE00B6A388 /* AppDelegate.h */,
+				309B4D551E38F0CE00B6A388 /* AppDelegate.m */,
+			);
+			name = "Special Classes";
+			sourceTree = "<group>";
+		};
+		309B4D6B1E38F11900B6A388 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				309B4D5D1E38F0CE00B6A388 /* Assets.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		309B4D6C1E38F11F00B6A388 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
