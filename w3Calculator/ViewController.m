@@ -13,10 +13,24 @@
 @end
 
 @implementation ViewController
+//
+@synthesize num1, num2, answer, theNumber, operand, lblText;
 
+//auto execute when app loads
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    //default all variables, variable name should be capitalize
+    [self setNum1:0];
+    [self setNum2:0];
+    [self setAnswer:0.0];
+    [self setOperand:PLUS];
+    [self setTheNumber:@"0"];
+    [lblText setText:self.theNumber];
+    
+    
+    
 }
 
 
